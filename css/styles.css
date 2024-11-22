@@ -36,10 +36,18 @@ a {
 	color: #9DA3AE
 }
 
-body {
+/* body {
 	background: #121826;
 	width: 100vw;
 	height: 100vh
+} */
+
+body {
+	background: url('/images/Background_image.svg'), #121826;
+	background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	width: 100vw;
+	height: 100vh;
 }
 
 .main-container {
@@ -75,13 +83,16 @@ body {
 .card {
 	width: 320px;
 	height: 450px;
-	padding: 25px;
-	gap: 20px;
+	padding: 20px;
+	gap: 15px;
 	display: flex;
 	flex-direction: column;
-	border-radius: 25px;
-
+	border-radius: 15px;
 	background-color: #212936;
+}
+
+.card .body-text {
+	width: 240px;
 }
 
 .emoji {
@@ -94,6 +105,10 @@ body {
 
 	/* TODO: CAMBIAR EL COLOR DE CADA UNO */
 	background-color: rgb(226, 207, 207);
+}
+
+.card-image {
+	border-radius: 15px;
 }
 
 @media screen and (min-width: 720px) {
