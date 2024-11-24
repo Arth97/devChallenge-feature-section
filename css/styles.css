@@ -38,8 +38,8 @@ a {
 
 body {
 	background-color: #121826;
-  background-image: url('./images/Background_image.svg');
-	/* background: url('/images/Background_image.svg'), #121826; */
+  background-image: url('./images/back-pattern.svg');
+	/* background: url('/images/back-pattern.svg'), #121826; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100vw;
